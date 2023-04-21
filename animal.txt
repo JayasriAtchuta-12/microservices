@@ -1,0 +1,28 @@
+/*Scanner sc = new Scanner(System.in);
+		System.out.println("Enter animal name:");
+		String name = sc.next();
+		System.out.println("Enter no.of.legs for animal:");
+		int noOfLegs = sc.nextInt();
+		System.out.println("Is animal Carnivore:");
+		String IsCarnivore = sc.next();
+		System.out.println("Enter animal color:");
+		String color= sc.next();
+		Animal a=new Animal(name,noOfLegs,IsCarnivore,color);
+		service.addData(a);*/
+		/*Scanner sc = new Scanner(System.in);
+		System.out.println("Enter animal name to search: ");
+		String ename = sc.next();
+		Animal temp = service.searchTable(ename);
+		if(temp==null)
+			System.out.println("Data is not found");
+		else
+			System.out.println(temp);*/
+		
+		/*List<Animal> data = service.displayAll();
+		for(Animal s:data)
+		 System.out.println(s);*/
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter animal name to delete: ");
+		String name=sc.next();
+		service.deleteData(name);
+		
